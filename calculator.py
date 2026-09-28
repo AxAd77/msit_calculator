@@ -6,14 +6,17 @@ def single_calculation():
 	num2 = int(parsed[2])
 	op = parsed[1]
   
-	if op == '+':
-		res = num1 + num2
-	elif op == '-':
-		res = num1 - num2
-	elif op == '*':
-		res = num1 * num2
-  elif op == '/'
-    res = num1 / num2
+def add(a, b):
+  return a + b
+
+def substract(a, b):
+  return a - b
+
+def multiply(a, b):
+  return a * b
+
+def divide(a, b):
+  return a / b
 
 	print(f"The answer is {res}")
 
