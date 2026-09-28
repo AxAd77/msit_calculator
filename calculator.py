@@ -12,6 +12,8 @@ def single_calculation():
 		res = num1 - num2
 	elif op == '*':
 		res = num1 * num2
+  elif op == '/'
+    res = num1 / num2
 
 	print(f"The answer is {res}")
 
